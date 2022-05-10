@@ -2,6 +2,9 @@
 
 The Multi-Agent Deep Deterministic Policy Gradients (MADDPG) algorithm below successfully solves the task of this project. It learns from the provided environment without any prior knowledge of it or data labels and maximizes reward by interacting with the environment.
 
+## Algorithm structure
+The maddpg.py file contains a MultiAgent class which utilizes the Agent class of ddpg.py. The DDPG agents call an Actor and a Critic Class from model.py, as usual, which also contains their pytorch instructions to define the NN architecture.
+
 ## Learning Algorithm
 The algorithm trains two agents with exactly the same Neural network architectures:
 - Actor
