@@ -17,7 +17,7 @@ The observation space consists of 8 variables corresponding to the position and 
 ## Method
 
 The approach of my implementation considers the following elements in the model:
-- Implementation of the MADDPG algorithm (source here https://arxiv.org/pdf/1706.02275.pdf)
+- Implementation of the MADDPG algorithm (meaning Multi-Agent Deep Deterministic Policy Gradient, source here https://arxiv.org/pdf/1706.02275.pdf)
   - Model contains an two agents, each with an actor (deterministic approximator of optimal policy mu given the states s, i.e. returning four action values) and the critic (approximates the optimal action-value-function for the actor's action)
   - Both, actor and critic, are neural networks with two fully connected layers after the input (with 400 and 300 units) activated by a relu-function, and an output layer, whereas the size of the second layer for the critic is extended by 2 to additionally consider the actions from mu
   - The output layer of the actor is activated with a tanh to provide action values between -1 and 1
