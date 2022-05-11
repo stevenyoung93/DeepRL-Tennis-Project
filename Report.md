@@ -44,5 +44,5 @@ Future ideas for improving the agent's performance:
   - IQL
   - IDDPG
   - IPPO
-- Tune hyperparameters to accelerate training and better understand how the agent can start working more quickly (not only after 1.xxx episodes) 
+- Tune hyperparameters to accelerate training and better understand how the agent can start working more quickly (not only after 2k+ episodes) 
 
