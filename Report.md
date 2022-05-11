@@ -32,10 +32,9 @@ The DDPG agent contains the following components and configs:
 - Noise according to the Ornstein-Uhlenbeck process with theta=0.15, sigma=0.2
 - Repetitions of learning per agent-step of 3
 
-## Plot of Rewards
+## Reaching of Rewards
 
-
-The plot shows that the agent was able to receive an average reward of +0.5 over 100 episodes after xxxx episodes. 
+The jupyetr notebook shows that the agent was able to receive an average reward of +0.5 over 100 episodes after 2,241 episodes. 
 
 ## Ideas for Future Work
 
